@@ -14,7 +14,7 @@ Now to check the address at which your DAC is connected. Run the following comma
 	
 	>> i2cdetect -y -r 1
 
-Note the adress from the above output and edit the address at line no 14 in sinWaveMCP.
+Note the adress from the above output and edit the address at line no 14 in sinWaveMCP.py
 
 Now run the program using following command:
 
