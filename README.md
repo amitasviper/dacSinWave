@@ -11,6 +11,7 @@ Connect the Beaglebone to the DAC using following pin layout
 and connect the OUT and GND of MCP7425 to the oscilloscope inputs.
 
 Now to check the address at which your DAC is connected. Run the following command:
+	
 	>> i2cdetect -y -r 1
 
 Note the adress from the above output and edit the address at line no 14 in sinWaveMCP.
